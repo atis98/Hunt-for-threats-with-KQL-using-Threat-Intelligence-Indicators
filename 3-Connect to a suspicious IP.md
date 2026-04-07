@@ -1,0 +1,2 @@
+# Steps:
+- I examined the data provided by the TAXII server. I realized it is sending the data into the "ThreatIntelIndicators" table. There are 4 data types ("Observable Key"): IPv4 address, Pv6 address, URL and domain. I decided to do the test with an IPv4 address, so I filtered those out and picked one randomly: <img width="882" height="595" alt="Screenshot 2026-04-07 at 11 55 18" src="https://github.com/user-attachments/assets/273f3957-ccf1-4569-837c-0b778621711e" />
